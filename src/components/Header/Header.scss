@@ -1,0 +1,117 @@
+.header {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+    .left {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+        h1 {
+            width: 660px;
+            font-size: 71px;
+            font-weight: 400;
+            line-height: 90px;
+            letter-spacing: 1px;
+        }
+        b{
+            width: 460px;
+            font-size: 20px;
+            margin-top: 34px;
+            line-height: 30px;
+            letter-spacing: .1px;
+            font-weight: 400;
+        }
+        .login {
+            width: 156px;
+            color: #01271C;
+        }
+        .signup {
+            
+            width: 190px;
+            color: #18181B;
+        }
+    }
+    .btn {
+        color: black;
+        border: 1px solid black;
+        width: 101px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .signup {
+        background-color: #4CFDC7;
+        margin-left: 16px;
+        &:hover {
+            background-color: #1afbb7;
+        }
+    }
+    .iconGr {
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        b{
+            margin-top: 0;
+            margin-left: 12px;
+        }
+        
+    }
+    .right {
+        img {
+            width: 390px;
+            max-height: 690px;
+            height: 100vh;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 50px;
+        .right {
+            img {
+                width: 300px;
+                height: 500px;
+            }
+        }
+        .left {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header {
+        .left {
+            h1 {
+                font-size: 38px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        .left {
+            h1 {
+                width: 500px;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        .left {
+            h1 {
+                width: 400px;
+                line-height: 34px;
+            }
+            width: 500px;
+        }
+    }
+}

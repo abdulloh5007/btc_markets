@@ -1,0 +1,63 @@
+.table {
+    margin-top: 20px;
+    &__hr {
+        margin-top: 26px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 14px;
+        color: #18181B;
+        font-weight: 400;
+        span {
+            margin-left: 32px;
+            color: #71717A;
+        }
+    }
+    .buyBtn {
+        background-color: #4CFDC7;
+        margin-left: 14px;
+        font-weight: 600;
+        border: none;
+        color: black;
+        &:hover {
+            background-color: #1afbb7;
+            border: none;
+        }
+    }
+    &__row {
+        display: flex !important;
+        align-items: center !important;
+        padding: 18px !important;
+        b {
+            margin-left: 6px;
+        }
+    }
+    b {
+        font-size: 15px;
+        font-weight: 600;
+        color: #18181B;
+        span {
+            font-size: 14px;
+            color: #A1A1AA;
+        }
+    }
+    &__avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 22px;
+        b {
+            cursor: pointer;
+            margin-left: 9px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .table {
+        &__table1 {
+            overflow-x: scroll;
+        }
+    }
+}

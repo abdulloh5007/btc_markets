@@ -1,0 +1,58 @@
+.find {
+    margin-top: 230px;
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    &__cards {
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-around;
+        gap: 32px;
+        flex-wrap: wrap;
+        &__card {
+            max-width: 357px;
+            width: 100%;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0px 0px 16px 10px rgba(9, 24, 26, 0.04);
+            img {
+                max-width: 357px;
+                width: auto;
+            }
+            .inner {
+                padding: 20px;
+                div {
+                    display: flex;
+                    align-items: center;
+                    b {
+                        background-color: #BDFFEB;
+                        color: #18181B;
+                        font-size: 12px;
+                        margin-right: 16px;
+                        font-weight: 400;
+                        padding: 8px;
+                        border-radius: 8px;
+                    }
+                    p {
+                        font-size: 12px;
+                        color: #18181B;
+                    }
+                }
+                .p {
+                    font-size: 24px;
+                    color: #18181B;
+                    margin-top: 22px;
+                    width: 300px;
+                    margin-bottom: 32px;
+                }
+                a {
+                    color: #18181B;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

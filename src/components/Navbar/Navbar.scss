@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 40px;
+    a {
+        color: black;
+        font-size: 16px;
+    }
+
+    &__center {
+        a {
+            margin-left: 32px;
+        }
+    }
+    .btn {
+        margin-left: 9px;
+        color: black;
+        border: 1px solid black;
+        width: 101px;
+        font-weight: 500;
+    }
+    .signup {
+        background-color: #4CFDC7;
+        &:hover {
+            background-color: #1afbb7;
+        }
+    }
+}

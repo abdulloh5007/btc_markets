@@ -1,0 +1,88 @@
+.trade {
+    margin-top: 170px;
+    h2 {
+        font-size: 16px;
+        color: #18181B;
+    }
+    &__two {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__left {
+            width: 530px;
+            h3 {
+                font-size: 40px;
+                width: 510px;
+                font-weight: 400;
+                line-height: 50px;
+            }
+            &__cards {
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                div {
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    width: 216px;
+                    margin-top: 54px;
+                    b {
+                        margin-top: 8px;
+                        font-weight: 400;
+                        color: #18181B;
+                        font-size: 16px;
+                    }
+                    p {
+                        margin-top: 18px;
+                        color: #27272A;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .trade {
+        &__two {
+            &__right {
+                img {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    .trade {
+        &__two {
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column-reverse;
+            &__right {
+                img {
+                    width: 560px;
+                }
+            }
+            &__left {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .trade {
+        &__two {
+            &__left__cards {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
