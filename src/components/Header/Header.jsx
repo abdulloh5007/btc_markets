@@ -4,12 +4,17 @@ import "../../App.scss"
 import { Button, Rating } from '@mui/material'
 import GoogleIcon from '@mui/icons-material/Google';
 import { useState } from 'react';
+// import { AOS } from 'aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function Header() {
   const [rate, setRate] = useState(4.5)
   return (
     <div className="header">
-      <div className="left">
+      <div className="left" data-aos="fade-right">
         <h1>Buy, sell and trade crypto today</h1>
         <b>Trade with confidence and build your future with Australia’s fastest crypto exchange.</b>
         <div className="btnGr">
@@ -22,7 +27,7 @@ function Header() {
           <b>{rate}</b>
         </div>
       </div>
-      <div className="right">
+      <div className="right" data-aos="fade-left">
         <img src={Tel} alt="Telephone" />
       </div>
     </div>

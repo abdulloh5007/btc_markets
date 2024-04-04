@@ -15,17 +15,17 @@ function Start() {
                 <h2>Start trading in 3 easy steps</h2>
             </div>
             <div className="start__cards">
-                <div>
+                <div data-aos="fade-up">
                     <span><img src={contact} alt={contact} /></span>
                     <b>1. Create</b>
                     <p>Sign up and verify your free account.</p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <span><img src={walletApp} alt={walletApp} /></span>
                     <b>2. Deposit</b>
                     <p>Add AUD or crypto to your wallet using our secure methods.</p>
                 </div>
-                <div>
+                <div data-aos="fade-up">
                     <span><img src={line} alt={line} /></span>
                     <b>3. Trade</b>
                     <p>You’re all set. Buy, sell and trade crypto immediately.</p>

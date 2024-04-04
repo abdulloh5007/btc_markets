@@ -10,7 +10,7 @@ function Trade() {
   return (
     <div className='trade'>
       <div className="trade__two">
-        <div className="trade__two__left">
+        <div className="trade__two__left" data-aos="fade-right">
           <h2>TRADE</h2>
           <h3>Buy, sell and trade crypto with confidence</h3>
           <div className="trade__two__left__cards">
@@ -36,7 +36,7 @@ function Trade() {
             </div>
           </div>
         </div>
-        <div className="trade__two__right">
+        <div className="trade__two__right" data-aos="fade-left">
           <img src={tradeRight} alt={tradeRight} />
         </div>
       </div>

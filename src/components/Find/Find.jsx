@@ -7,7 +7,7 @@ function Find() {
         <div className='find'>
             <h2>Find out the latest crypto news</h2>
             <div className="find__cards">
-                <div className="find__cards__card">
+                <div className="find__cards__card" data-aos="fade-down-right">
                     <img src={find} alt={find} />
                     <div className="inner">
                         <div>
@@ -18,7 +18,7 @@ function Find() {
                         <a href="#">Read More</a>
                     </div>
                 </div>
-                <div className="find__cards__card">
+                <div className="find__cards__card" data-aos="fade-down">
                     <img src={find} alt={find} />
                     <div className="inner">
                         <div>
@@ -29,7 +29,7 @@ function Find() {
                         <a href="#">Read More</a>
                     </div>
                 </div>
-                <div className="find__cards__card">
+                <div className="find__cards__card" data-aos="fade-down-left">
                     <img src={find} alt={find} />
                     <div className="inner">
                         <div>

@@ -9,10 +9,10 @@ import secureApp from '../../assets/secureApp.png'
 function Wallet() {
   return (
     <div className="wallet">
-      <div className="wallet__left">
+      <div className="wallet__left" data-aos="fade-left">
         <img src={wallet} alt={wallet} />
       </div>
-      <div className="wallet__right">
+      <div className="wallet__right" data-aos="fade-right">
         <h3>Wallet</h3>
         <b>Simple and secure wallet services</b>
         <div className="wallet__right__cards">
