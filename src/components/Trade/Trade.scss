@@ -78,10 +78,26 @@
 @media screen and (max-width: 600px) {
     .trade {
         &__two {
+            align-items: flex-start;
+            h3 {
+                font-size: 28px;
+                max-width: 400px;
+                width: 100%;
+            }
             &__left__cards {
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+            &__left {
+                max-width: 400px;
+                width: 100%;
+            }
+            &__right {
+                img {
+                    max-width: 400px;
+                    width: 100%;
+                }
             }
         }
     }

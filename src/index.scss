@@ -13,3 +13,9 @@ body {
     text-decoration: none;
     // border: 1px solid green;
 }
+
+@media screen and (max-width: 600px){
+    img {
+        width: auto;
+    }
+}

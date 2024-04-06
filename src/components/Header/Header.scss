@@ -24,6 +24,7 @@
         .login {
             width: 156px;
             color: #01271C;
+            margin-right: 16px;
         }
         .signup {
             
@@ -40,7 +41,7 @@
     }
     .signup {
         background-color: #4CFDC7;
-        margin-left: 16px;
+        
         &:hover {
             background-color: #1afbb7;
         }
@@ -107,11 +108,24 @@
 @media screen and (max-width: 600px) {
     .header {
         .left {
-            h1 {
-                width: 400px;
-                line-height: 34px;
+            max-width: 400px;
+            width: 100%;
+            b {
+                max-width: 400px;
+                width: 100%;
             }
-            width: 500px;
+            h1 {
+                max-width: 400px;
+                width: 100%;
+                line-height: 34px;
+
+            }
+            max-width: 400px;
+            width: 100%;
+            .btnGr {
+                max-width: 400px;
+                width: 100%;
+            }
         }
     }
 }
